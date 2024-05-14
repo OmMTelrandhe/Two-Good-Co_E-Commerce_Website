@@ -57,6 +57,20 @@ gsap.to(".navp1 svg",{
 })
 
 if(window.innerWidth < 800){
+  gsap.to(".navp1 svg",{
+    transform: 'translateY(-100%)',
+    scrollTrigger:{
+        trigger: "#page1",
+        scroller: "#main",
+        // markers: true,
+        start:"top 0",
+        end:"top -5%",
+        scrub: true
+    }
+})
+}
+
+if(window.innerWidth < 800){
 gsap.to(".navp1 #twogood1",{
     transform: 'translateY(-100%)',
     opacity: 0,
@@ -84,6 +98,21 @@ gsap.to(".nav2 .links",{
     }
 })
 
+if(window.innerWidth < 800){
+  gsap.to(".nav2 .links",{
+    transform: 'translateY(-100%)',
+    opacity:0,
+    scrollTrigger:{
+        trigger: "#page1",
+        scroller: "#main",
+        // markers: true,
+        start:"top 0",
+        end:"top -5%",
+        scrub: true
+    }
+})
+}
+
 gsap.to(".nav2 button",{
     transform: 'translateY(-100%)',
     opacity:0,
@@ -97,6 +126,21 @@ gsap.to(".nav2 button",{
     }
 })
 
+if(window.innerWidth <800){
+  gsap.to(".nav2 button",{
+    transform: 'translateY(-100%)',
+    opacity:0,
+    scrollTrigger:{
+        trigger: "#page1",
+        scroller: "#main",
+        // markers: true,
+        start:"top 0",
+        end:"top -5%",
+        scrub: true
+    }
+})
+}
+
 gsap.to("#page3 .childo",{
     transform: 'translateY(-20%)',
     scrollTrigger:{
@@ -108,6 +152,20 @@ gsap.to("#page3 .childo",{
         scrub: true
     }
 })
+
+if(window.innerWidth <800){
+  gsap.to("#page3 .childo",{
+    transform: 'translateY(-20%)',
+    scrollTrigger:{
+        trigger: "#page1",
+        scroller: "#main",
+        // markers: true,
+        start:"top 20%",
+        end:"top -5%",
+        scrub: true
+    }
+})
+}
 
 function videoconanimation(){var videocon = document.querySelector("#video-container");
 var playbtn = document.querySelector("#play");
