@@ -1,7 +1,5 @@
 # Two-Good-Co_E-Commerce_Website
 
-# Two Good Co. - E-commerce Website
-
 ## Overview
 Welcome to the "Two Good Co." E-commerce website project! This repository contains the source code for a fully responsive e-commerce website designed to provide a seamless shopping experience across all devices, from desktops to mobile phones. The site is built using HTML, CSS, and JavaScript, enhanced with powerful JavaScript libraries like LOCOMOTIVE JS and GSAP for smooth scrolling and exclusive animations.
 
